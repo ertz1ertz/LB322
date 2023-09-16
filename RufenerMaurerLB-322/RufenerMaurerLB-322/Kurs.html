@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Einschreiben</title>
+        <link rel="stylesheet" href="./w3.css" />
+        <link rel="stylesheet" href="./style.css" />
+    </head>
+    <body>
+        <nav>
+            <div class="grid-container">
+                <div>
+                    <img
+                        class="image"
+                        src="./Images/BBBLogo.png"
+                        alt="Logo der Berufsfachschule Baden"
+                    />
+                </div>
+                <div class="nav_Nav">
+                    <a href="./index.html">Home/</a>
+                    <a href="./Kurs.html">Kurs/</a>
+                </div>
+                <div class="nav_right">
+                    <img
+                        class="image"
+                        src="./Images/EinstellungenIcon.jpg"
+                        alt="Einstellungen"
+                    />
+                </div>
+                <div class="nav_right">
+                    <img
+                        class="image"
+                        src="./Images/profileIcon.png"
+                        alt="Profil"
+                    />
+                </div>
+            </div>
+        </nav>
+        <a id="kursVerlassen" href="./index.html">Kurs verlassen</a>
+
+        <main class="middle">
+            <h1 class="ueberschrift">Wilkommen zum Kurs XXX</h1>
+            <div class="beschreibungKurs">
+                Beschreibung Kurs: Lorem ipsum dolor sit amet consectetur
+                adipisicing elit. Illo aspernatur molestiae nisi fugiat optio
+                deleniti delectus? Quod voluptates officiis voluptatibus non ea
+                rem? Error, eum! Inventore optio accusantium vero sed.
+            </div>
+            <div id="grid-container-kurs">
+                <a href="./KursAbschnitt/Kursabschnitt1.html">
+                    <div class="kurs-Kursabschnitt">
+                        <h1 class="middle kurz-titel-kurs">Abschnittitel1</h1>
+                        <p class="middle kurz-beschreibung-kurs">
+                            Beschreibung: Lorem ipsum dolor sit amet consectetur
+                            adipisicing elit. Enim quo in animi, asperiores
+                        </p>
+                    </div>
+                </a>
+                <a href="./KursAbschnitt/Kursabschnitt2.html">
+                    <div class="kurs-Kursabschnitt">
+                        <h1 class="middle kurz-titel-kurs">Abschnittitel2</h1>
+                        <p class="middle kurz-beschreibung-kurs">
+                            Beschreibung: Lorem ipsum dolor sit amet consectetur
+                            adipisicing elit. Enim quo in animi, asperiores
+                        </p>
+                    </div>
+                </a>
+                <a href="./KursAbschnitt/Kursabschnitt3.html">
+                    <div class="kurs-Kursabschnitt">
+                        <h1 class="middle kurz-titel-kurs">Abschnittitel3</h1>
+                        <p class="middle kurz-beschreibung-kurs">
+                            Beschreibung: Lorem ipsum dolor sit amet consectetur
+                            adipisicing elit. Enim quo in animi, asperiores
+                        </p>
+                    </div>
+                </a>
+                <a href="./KursAbschnitt/Kursabschnitt4.html">
+                    <div class="kurs-Kursabschnitt">
+                        <h1 class="middle kurz-titel-kurs">Abschnittitel4</h1>
+                        <p class="middle kurz-beschreibung-kurs">
+                            Beschreibung: Lorem ipsum dolor sit amet consectetur
+                            adipisicing elit. Enim quo in animi, asperiores
+                        </p>
+                    </div>
+                </a>
+                <a href="./KursAbschnitt/Kursabschnitt5.html">
+                    <div class="kurs-Kursabschnitt">
+                        <h1 class="middle kurz-titel-kurs">Abschnittitel5</h1>
+                        <p class="middle kurz-beschreibung-kurs">
+                            Beschreibung: Lorem ipsum dolor sit amet consectetur
+                            adipisicing elit. Enim quo in animi, asperiores
+                        </p>
+                    </div>
+                </a>
+                <a href="./KursAbschnitt/Kursabschnitt6.html">
+                    <div class="kurs-Kursabschnitt">
+                        <h1 class="middle kurz-titel-kurs">Abschnittitel6</h1>
+                        <p class="middle kurz-beschreibung-kurs">
+                            Beschreibung: Lorem ipsum dolor sit amet consectetur
+                            adipisicing elit. Enim quo in animi, asperiores
+                        </p>
+                    </div>
+                </a>
+            </div>
+            <div
+                class="sidebar w3-sidebar w3-bar-block w3-light-grey w3-card"
+                style="width: 160px; right: 0"
+            >
+                <button
+                    class="w3-button w3-block w3-left-align"
+                    onclick="myAccFunc()"
+                >
+                    Kurs M-XXX <i class="fa fa-caret-down"></i>
+                </button>
+                <div id="demoAcc" class="w3-hide w3-white w3-card">
+                    <a
+                        href="./Kursabschnitt1.html"
+                        class="w3-bar-item w3-button"
+                        >KursAbschnitt1</a
+                    >
+                    <a
+                        href="./Kursabschnitt2.html"
+                        class="w3-bar-item w3-button"
+                        >KursAbschnitt2</a
+                    >
+                    <a
+                        href="./Kursabschnitt3.html"
+                        class="w3-bar-item w3-button"
+                        >KursAbschnitt3</a
+                    >
+                    <a
+                        href="./Kursabschnitt4.html"
+                        class="w3-bar-item w3-button"
+                        >KursAbschnitt4</a
+                    >
+                    <a
+                        href="./Kursabschnitt5.html"
+                        class="w3-bar-item w3-button"
+                        >KursAbschnitt5</a
+                    >
+                    <a
+                        href="./Kursabschnitt6.html"
+                        class="w3-bar-item w3-button"
+                        >KursAbschnitt6</a
+                    >
+                </div>
+            </div>
+        </main>
+        <script src="./index.js"></script>
+    </body>
+</html>
