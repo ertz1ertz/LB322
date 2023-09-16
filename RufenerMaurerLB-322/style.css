@@ -60,16 +60,20 @@ nav {
     width: 50%;
     margin-bottom: 3rem;
 }
-.middle > button {
-    width: 20rem;
-    height: 4rem;
+.middle > a,
+#kursVerlassen {
     font-size: 2rem;
     margin-top: 6rem;
+    padding: 1rem;
+    border: 1px solid black;
+    background-color: lightgray;
 }
 /* Kurs */
 #kursVerlassen {
     float: right;
-    margin: 1rem;
+    position: absolute;
+    top: 10rem;
+    right: 20rem;
     font-size: 1.5rem;
 }
 .ueberschrift {
@@ -162,6 +166,7 @@ nav {
     margin-bottom: 2rem;
     font-size: 2rem;
 }
+
 /* sidebar */
 .sidebar {
     font-size: 2rem;
