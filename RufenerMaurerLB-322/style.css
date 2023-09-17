@@ -171,3 +171,7 @@ nav {
 .sidebar {
     font-size: 2rem;
 }
+
+.moushover {
+    cursor: pointer;
+}
